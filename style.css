@@ -1,6 +1,8 @@
 
 
 body {
+  height: 100%;
+  width: 1300px;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   background-color: #c6e1f30d;
@@ -189,43 +191,34 @@ height: 57px;
 border: 1px solid #6a696b;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
-/*.proekts{
-  
-  padding:  10px;
 
-}*/
 .proekt-card-img {
   height: 300px;
   max-width: 350px;
 }
-
-
 
 .pr-1,
 .pr-2, 
 .pr-3, 
 .pr-4, 
 .pr-5, 
-.pr-6
- {
+.pr-6,
+.pr-7 {
   background: center no-repeat;
   background-size: 100%;
   border-radius: 10px 10px 10px 10px;
 }
-
 
 .pr-1 img,
  .pr-2 img,
   .pr-3 img,
   .pr-4 img,
   .pr-5 img,
-  .pr-6 img {
+  .pr-6 img ,
+  .pr-7 img {
   height: 300px;
   max-width: 350px;
 }
-
-
-
 
 .proekt-kategorii {
   display: block;
@@ -299,7 +292,7 @@ float: right;
 text-align: justify;
 }
 
-h3{
+h3 {
   text-shadow: 2px 2px 2px #A1A4FF;
   font-size: 30px;
   text-align: center;
@@ -425,8 +418,9 @@ text-shadow: 1px 1px 1px #cfd0fb;
   .img-obomne img {
     max-width: 90%;
   }
+
   .text-obomne p,
-  .nap-seti p{
+  .nap-seti p {
     font-size:small;
   }
 
